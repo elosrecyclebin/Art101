@@ -1,0 +1,13 @@
+body {
+    background: #d9ccf3;
+    padding: 50px;
+}
+h1,
+h2,
+h3 {
+    color: #2e2a5f;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+img {
+    width: 300px;
+}
