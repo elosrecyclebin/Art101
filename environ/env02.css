@@ -1,0 +1,45 @@
+body {
+    background: #fdcbf2c8;
+    padding: 50px;
+}
+h1,
+h2,
+h3 {
+    color: #000000;
+    font-family: sans-serif;
+}
+img { width: 850px;}
+
+
+
+p { text-align: center; }
+html {font-family:'Times New Roman', Times, serif; font-size: 45px;
+font-weight: 800;
+line-height: normal;
+color: rgb(251, 226, 251); }
+
+#page {
+    max-width: 1000px;
+    margin: 0 auto 0 auto;
+    background: rgba(56, 36, 36, 0.984);
+    padding: 20px;
+}
+.top-section {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    margin: 0 0 25 px 0;
+}
+
+.profile {
+    text-align: center;
+    flex: 1;
+}
+.profile img {
+    width: 320px;
+    border-radius: 0px;
+}
+
+.my-flex {
+    display: flex;
+}

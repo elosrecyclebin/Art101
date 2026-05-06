@@ -11,3 +11,55 @@ h3 {
 img {
     width: 300px;
 }
+#page {
+    max-width: 900px;
+    margin: 0 auto 0 auto;
+    background: rgba(186, 151, 224, 0.426);
+    padding 15px;
+}
+.top-section {
+    display: flex; 
+    gap: 30px;
+    align-items: flex-start;
+    margin: 0 0 25 px 0;
+}
+#introduction {
+    background: #f3f7ff31;
+    padding: 20px;
+    border-left: 6px solid #1d1184;
+    flex: 2;
+}
+#introduction h2 {
+    font-style: italic;
+    margin-top: 0;
+}
+#introduction p {
+    font-size: 120%;
+    line-height: 1.5;
+}
+.profile {
+    text-align: center;
+    flex: 1;
+}
+.profile img {
+    width: 300px;
+    border-radius: 15px;
+}
+.profile p {
+    font-size: 100%;
+}
+.navigation {
+    background: #f6dff89c;
+    padding: 20px;
+    border-radius: 12px;
+}
+.navigation h2 {
+    margin-top: 0;
+}
+.navigation li {
+    margin-bottom: 8px;
+}
+.navigation a {
+    color: #2b208b;
+    font-weight: bold;
+}
