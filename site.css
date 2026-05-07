@@ -15,7 +15,7 @@ img {
     max-width: 900px;
     margin: 0 auto 0 auto;
     background: rgba(186, 151, 224, 0.426);
-    padding 15px;
+    padding: 15px;
 }
 .top-section {
     display: flex; 
