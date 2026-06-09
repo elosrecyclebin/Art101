@@ -1,46 +1,34 @@
 
-let count = 0;
-let foods = ["Tiramisu", "Apple Pie", "Chocolate Chip Cookie", "Banana Bread"];
-let foodCount = 0;
+function showTreat(treat){
+    const display = document.getElementById("treat-display");
 
-function makeImage(foodToMatch) {
-    if (foods[foodCount] === foodToMatch) {
-        $("#body").append("<img width=150 src='" + foodToMatch + ".png");
-            
+    const treats = {
+        Bread: `
+        <h2>Banana Bread</h2>
+        <p>Soft Sweet Bread</p>
+        <img src="Banana-Bread.jpg">
+        `,
+
+        Cookie: `
+        <h2>Chocolate Chip Cookies</h2>
+        <p>Freshly Baked Cookies</p>
+        <img src="cookie.jpg">
+        `,
+
+        Cake: `
+        <h2>Tiramisu</h2>
+        <p>Slightly bitter but Sweet</p>
+        <img src="tiramisu.jpg">
+        `,
+
+        Pie: `
+        <h2>Apple Pie</h2>
+        <p>Flaky Sweet Tart</p>
+        <img src="Apple-Pie.jpg">
+        `
+    };
+    display.innerHTML = treats[treat];
 }
-}
-
-$("#cute-button").click(function () {
-    $("#cute-button").html("Yay!! " + " Your sweet treat of the day: " + foods[count] + " " + count);
-
-    count = count + 1;
-    foodCount = count - 1;
-
-});
-
-$("#adorable-button").click(function () {
-    $("#adorable-button").html("Yummy! " + count + " Your sweet treat of the day: " + foods[count]);
-
-    count = count + 1;
-    foodCount = count - 1;
-
-});
-
-$("#pretty-button").click(function () {
-    $("#pretty-button").html("Delicious! " + count + " Your sweet treat of the day: " + foods[count]);
-
-    count = count + 1;
-    foodCount = count - 1;
-
-});
-
-$("#sweet-button").click(function () {
-    $("#sweet-button").html("Nom nom  " + count + " Your sweet treat of the day: " + foods[count]);
-
-    count = count + 1;
-    foodCount = count - 1;
-
-});
 
 
 

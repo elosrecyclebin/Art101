@@ -7,6 +7,7 @@
     <link href="env03.css" rel="stylesheet" type="text/css">
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="env04.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 
 <style>
@@ -48,23 +49,22 @@
             </div>
         </div>
 
-        <div class="my-flex">
-            <div style="background-color: rgba(237, 159, 209, 0.429);">
-                <h2>
-                    Work in progress
-                </h2>
-            </div>
-        </div>
     </div>
     <p>
-    <div class="container">
-        </p>
-        <p> Sweet Treats</p>
+    <section id="sweet-treats">
 
-        <button id="cute-button">Surprise Me!</button>
-        <button id="adorable-button">Click Me!</button>
-        <button id="pretty-button">Eat Me!</button>
-        <button id="sweet-button">Yummy!</button>
+        <h1 class="sweet-title">Sweet Treats</h1>
+
+        <div class="button-container">
+            <button onclick="showTreat('Bread')">Suprise Me!</button>
+            <button onclick="showTreat('Cake')">Click Me!</button>
+            <button onclick="showTreat('Pie')">Eat Me!</button>
+            <button onclick="showTreat('Cookie')">Yummy!</button>
+        </div>
+        <div id="treat-display">
+            <p>Click a button to see a sweet treat!</p>
+        </div>
+    </section>
 
 </body>
 
